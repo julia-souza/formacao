@@ -1,10 +1,11 @@
 {
     "name": "julia-souza/formacao",
     "description": "Materiais de estudo para a formação interna da ARCO",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
+            "JuliaSouza\\Formacao\\": "src/",
             "Treinamento\\Teste\\": "src/"
         }
     },
