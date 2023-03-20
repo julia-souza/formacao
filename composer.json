@@ -1,0 +1,28 @@
+{
+    "name": "julia-souza/formacao",
+    "description": "Materiais de estudo para a formação interna da ARCO",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Treinamento\\Teste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Júlia Souza",
+            "email": "juliadsouzaborges@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "clear": [
+            "rm -f composer.lock",
+            "@composer clear-cache"
+        ],
+        "build-app": [
+            "@clear",
+            "@composer install"
+        ]
+    }
+}
